@@ -5,8 +5,8 @@ pipeline {
         stage('Clone source code from Git') {
             steps {
                 echo "Cloning Project from GitHub; Branch : fouad"
-                git branch: 'Amani',
-                url: 'https://github.com/fouadk1/achat.git'
+                git branch: 'master',
+                url: 'https://github.com/AmaniAvaxia/DevOps-G7U1.git'
             }
         }
         stage('MVN CLEAN') {
